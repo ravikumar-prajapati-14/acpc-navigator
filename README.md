@@ -85,7 +85,7 @@ Navigating engineering admissions in Gujarat can be overwhelming — hundreds of
 | 🏫 Colleges | Searchable directory of engineering colleges |
 | 🌿 Branches | Branch information and career insights |
 | 📅 Dates | Important ACPC schedules |
-| 📋 Admission | Complete admission process guide |
+| 📋 Admission | Complete admission process guide steps |
 
 ---
 
@@ -93,7 +93,7 @@ Navigating engineering admissions in Gujarat can be overwhelming — hundreds of
 
 | 🏫 Colleges | 🌿 Branches | 💺 Seats | 🔄 Rounds |
 |:----------:|:----------:|:--------:|:--------:|
-| **140+** | **75+** | **50,000+** | **Multiple** |
+| **140+** | **55+** | **50,000+** | **3** |
 
 ---
 
@@ -101,7 +101,7 @@ Navigating engineering admissions in Gujarat can be overwhelming — hundreds of
 
 - HTML5
 - CSS3
-- JavaScript (Vanilla JS)
+- JavaScript
 - JSON
 - Mobile-First Responsive Design
 
@@ -220,18 +220,6 @@ Predictions are indicative only and do **not guarantee admission**.
 
 Students should always verify important information from the official ACPC website before making admission decisions.
 
----
-
-# 👨‍💻 Developer
-
-**Ravi Prajapati**
-
-B.Tech Student, Nirma University
-
-- LinkedIn: https://www.linkedin.com/in/ravi-prajapati-14rt9/
-- WhatsApp: https://wa.me/917096362037
-
----
 
 <div align="center">
 
