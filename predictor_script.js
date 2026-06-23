@@ -311,18 +311,15 @@ for (const record of records) {
 
   const diff = record.cutoff - rank;
 
-  if (
-      diff >= 1000 ||
-      rank <= record.cutoff * 0.90
-  ){
-      buckets.high.push(record);
-  }
-  else if(diff >= 0){
-      buckets.med.push(record);
-  }
-  else if(rank <= record.cutoff * 1.10){
-      buckets.low.push(record);
-  }
+if (rank <= record.cutoff * 0.93) {
+    buckets.high.push(record);
+}
+else if (rank <= record.cutoff * 1.03) {
+    buckets.med.push(record);
+}
+else if (rank <= record.cutoff * 1.12) {
+    buckets.low.push(record);
+}
 }
   }
 
