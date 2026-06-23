@@ -1,0 +1,267 @@
+/* ===== Admission Steps Page ===== */
+:root {
+  --a-primary: #1976d2;
+  --a-primary-soft: #e8f1fb;
+  --a-primary-dark: #115ca8;
+  --a-bg: #ffffff;
+  --a-bg-soft: #f6f9fc;
+  --a-text: #1a2233;
+  --a-text-soft: #5b6577;
+  --a-text-mute: #8a93a4;
+  --a-border: #e3e7ee;
+  --a-shadow: 0 2px 10px rgba(25, 118, 210, 0.08);
+  --a-shadow-hover: 0 6px 22px rgba(25, 118, 210, 0.14);
+  --a-radius: 12px;
+}
+ 
+* { box-sizing: border-box; }
+ 
+body[data-page="admission"] {
+  margin: 0;
+  background: var(--a-bg);
+  color: var(--a-text);
+  font-family: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+ 
+/* ===== HEADER (matches cutoff-bar) ===== */
+.admission-bar {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  background: var(--a-primary);
+  color: #fff;
+  padding: 0 10px;
+  height: 56px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+ 
+.admission-bar .back-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  text-decoration: none;
+  font-size: 22px;
+  transition: background 0.15s;
+}
+ 
+.admission-bar .back-btn:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+ 
+.admission-title {
+  flex: 1;
+  margin: 0;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 600;
+  color: #fff;
+}
+ 
+.bar-spacer {
+  width: 36px;
+  display: inline-block;
+}
+ 
+/* ===== PAGE WRAP ===== */
+.admission-wrap {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px 14px 60px;
+}
+ 
+/* ===== INTRO ===== */
+.admission-intro {
+  margin: 4px 2px 24px;
+}
+ 
+.admission-intro h2 {
+  margin: 0 0 6px;
+  font-size: 21px;
+  font-weight: 700;
+  color: var(--a-text);
+}
+ 
+.admission-intro p {
+  margin: 0;
+  font-size: 14px;
+  color: var(--a-text-soft);
+  line-height: 1.55;
+}
+ 
+/* ===== STEPS GRID ===== */
+.steps-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+  margin-bottom: 28px;
+}
+ 
+/* ===== STEP CARD (matches dates card style) ===== */
+.step-card {
+  background: #fff;
+  border: 1px solid var(--a-border);
+  border-radius: var(--a-radius);
+  box-shadow: var(--a-shadow);
+  padding: 20px 18px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  position: relative;
+  overflow: hidden;
+}
+ 
+.step-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: var(--a-primary);
+  border-radius: var(--a-radius) 0 0 var(--a-radius);
+}
+ 
+.step-card:hover {
+  box-shadow: var(--a-shadow-hover);
+  transform: translateY(-2px);
+}
+ 
+/* Step number badge */
+.step-num {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--a-primary-dark);
+  background: var(--a-primary-soft);
+  border: 1px solid #cfe1f4;
+  padding: 3px 10px;
+  border-radius: 999px;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  width: fit-content;
+}
+ 
+/* Step title */
+.step-title {
+  font-size: 15.5px;
+  font-weight: 700;
+  color: var(--a-text);
+  line-height: 1.3;
+  margin: 0;
+}
+ 
+/* Step description */
+.step-desc {
+  font-size: 13.5px;
+  color: var(--a-text-soft);
+  line-height: 1.55;
+  margin: 0;
+}
+ 
+/* Required documents */
+.step-docs-label {
+  font-size: 11.5px;
+  font-weight: 700;
+  color: var(--a-text-mute);
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  margin-bottom: 6px;
+}
+ 
+.step-docs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+ 
+.doc-chip {
+  font-size: 11.5px;
+  color: var(--a-primary-dark);
+  background: var(--a-primary-soft);
+  border: 1px solid #cfe1f4;
+  border-radius: 999px;
+  padding: 3px 9px;
+  line-height: 1.4;
+}
+ 
+/* ===== VIEW DATES BUTTON ===== */
+.btn-dates {
+  display: block;
+  width: fit-content;
+  margin: 0 auto 28px;
+  padding: 13px 28px;
+  background: linear-gradient(135deg, #1976d2, #115ca8);
+  color: #fff;
+  font-size: 14.5px;
+  font-weight: 600;
+  border-radius: 999px;
+  text-decoration: none;
+  text-align: center;
+  box-shadow: 0 4px 14px rgba(25, 118, 210, 0.28);
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+ 
+.btn-dates:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px rgba(25, 118, 210, 0.36);
+}
+ 
+.btn-dates:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 8px rgba(25, 118, 210, 0.2);
+}
+ 
+/* ===== PRO TIP ===== */
+.pro-tip {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 16px 18px;
+  background: var(--a-primary-soft);
+  border: 1px solid #cfe1f4;
+  border-radius: var(--a-radius);
+  font-size: 13.5px;
+  color: var(--a-text-soft);
+  line-height: 1.6;
+}
+ 
+.pro-tip strong {
+  color: var(--a-primary-dark);
+}
+ 
+/* ===== RESPONSIVE ===== */
+@media (max-width: 640px) {
+  .steps-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+ 
+  .admission-wrap {
+    padding: 14px 10px 50px;
+  }
+ 
+  .step-card {
+    padding: 16px 14px 14px;
+  }
+ 
+  .step-title {
+    font-size: 14.5px;
+  }
+ 
+  .step-desc {
+    font-size: 13px;
+  }
+}
+ 
+@media (min-width: 641px) and (max-width: 900px) {
+  .steps-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

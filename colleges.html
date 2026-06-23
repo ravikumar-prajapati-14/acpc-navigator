@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Colleges – ACPC Portal</title>
+  <link rel="stylesheet" href="./college_module_style.css" />
+</head>
+<body>
+  <header class="app-bar">
+    <a class="icon-btn" href="./index.html" aria-label="Back">←</a>
+    <h1 class="app-title">Colleges <span id="countBadge">(0)</span></h1>
+  </header>
+
+  <div class="search-section">
+    <div class="search-box">
+      <span class="search-ic">&#128269;</span>
+      <input type="text" id="searchInput" placeholder="Search by College Name" autocomplete="off" />
+    </div>
+
+    <div class="district-wrap">
+      <input type="text" id="districtInput" placeholder="Filter by District (type to search)" autocomplete="off" />
+      <div class="district-dropdown" id="districtDropdown" hidden></div>
+    </div>
+
+    <div class="type-tabs">
+      <button class="type-tab active" data-type="ALL">ALL</button>
+      <button class="type-tab" data-type="GOV">Gov.</button>
+      <button class="type-tab" data-type="SFI">SFI</button>
+    </div>
+  </div>
+
+  <main class="college-list" id="collegeList">
+    <div class="empty-state">Loading colleges…</div>
+  </main>
+
+  <script src="./clg_script.js"></script>
+</body>
+</html>

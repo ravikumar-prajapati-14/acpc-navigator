@@ -1,0 +1,466 @@
+{
+  "meta": {
+    "title": "Key Dates – Degree Engineering 2026-27",
+    "authority": "Admission Committee for Professional Courses (ACPC)",
+    "department": "Directorate of Technical Education, Gujarat",
+    "asOn": "31.03.2026",
+    "website": "https://acpc.gujarat.gov.in/",
+    "portalUrl": "https://gujacpc.admissions.nic.in/",
+    "helpline": "+91-79-26566000",
+    "helplineHours": "8:00 AM to 12:00 Midnight"
+  },
+  "phases": [
+    {
+      "id": "phase-awareness",
+      "label": "Awareness & Registration",
+      "color": "#3b82f6",
+      "icon": "📣",
+      "events": [
+        {
+          "id": 1,
+          "title": "Publication of Advertisement",
+          "description": "Official advertisement published on ACPC website and newspapers.",
+          "startDate": "2026-03-31",
+          "endDate": null,
+          "tag": "Awareness",
+          "tagColor": "#3b82f6",
+          "important": false,
+          "actionRequired": false
+        },
+        {
+          "id": 2,
+          "title": "Awareness Program for UG Courses",
+          "description": "State-wide awareness sessions conducted for UG engineering course admissions.",
+          "startDate": "2026-04-11",
+          "endDate": "2026-06-07",
+          "tag": "Awareness",
+          "tagColor": "#3b82f6",
+          "important": false,
+          "actionRequired": false
+        },
+        {
+          "id": 3,
+          "title": "Commencement of Registration",
+          "description": "Registration portal opens at 2 PM. Create your account, fill personal & academic details, upload photo and signature.",
+          "startDate": "2026-04-01",
+          "endDate": null,
+          "time": "2:00 PM",
+          "tag": "Registration",
+          "tagColor": "#f5a623",
+          "important": true,
+          "actionRequired": true,
+          "actionLabel": "Register Now"
+        },
+        {
+          "id": 4,
+          "title": "Last Date of Registration & Fee Payment",
+          "description": "Final deadline to complete online registration and pay the registration fees.",
+          "startDate": "2026-05-31",
+          "endDate": null,
+          "tag": "Deadline",
+          "tagColor": "#ef5350",
+          "important": true,
+          "actionRequired": true,
+          "actionLabel": "Pay Fee"
+        }
+      ]
+    },
+    {
+      "id": "phase-merit",
+      "label": "Merit List & Mock Round",
+      "color": "#9c6fff",
+      "icon": "📋",
+      "events": [
+        {
+          "id": 5,
+          "title": "Publication of Revised Final List of Institutes & Seat Matrix",
+          "description": "Finalized list of participating institutes along with seat matrix published.",
+          "startDate": "2026-06-12",
+          "endDate": null,
+          "tag": "Publication",
+          "tagColor": "#9c6fff",
+          "important": false,
+          "actionRequired": false
+        },
+        {
+          "id": 6,
+          "title": "Declaration of Provisional Merit List",
+          "description": "Provisional merit list declared based on GUJCET / JEE scores.",
+          "startDate": "2026-06-12",
+          "endDate": null,
+          "tag": "Merit List",
+          "tagColor": "#9c6fff",
+          "important": true,
+          "actionRequired": false
+        },
+        {
+          "id": 7,
+          "title": "Choice Filling for Mock Round",
+          "description": "Fill and alter your college and branch preferences for the mock admission round.",
+          "startDate": "2026-06-12",
+          "endDate": "2026-06-15",
+          "tag": "Mock Round",
+          "tagColor": "#f06292",
+          "important": true,
+          "actionRequired": true,
+          "actionLabel": "Fill Choices"
+        },
+        {
+          "id": 8,
+          "title": "Declaration of Mock Round Result",
+          "description": "Mock allotment result published. No confirmation required — for reference only.",
+          "startDate": "2026-06-17",
+          "endDate": null,
+          "tag": "Mock Result",
+          "tagColor": "#4caf50",
+          "important": false,
+          "actionRequired": false
+        },
+        {
+          "id": 9,
+          "title": "Declaration of Final Merit List",
+          "description": "Final merit list declared and published on the ACPC portal.",
+          "startDate": "2026-06-17",
+          "endDate": null,
+          "tag": "Merit List",
+          "tagColor": "#9c6fff",
+          "important": true,
+          "actionRequired": false
+        }
+      ]
+    },
+    {
+      "id": "phase-round1",
+      "label": "Round 1",
+      "color": "#0dd3c5",
+      "icon": "🏆",
+      "events": [
+        {
+          "id": 10,
+          "title": "Consent & Choice Filling – Round 1",
+          "description": "Give consent for participation and fill/alter college & branch preferences for Round 1 admission.",
+          "startDate": "2026-06-17",
+          "endDate": "2026-06-22",
+          "tag": "Round 1",
+          "tagColor": "#0dd3c5",
+          "important": true,
+          "actionRequired": true,
+          "actionLabel": "Fill Choices"
+        },
+        {
+          "id": 11,
+          "title": "Declaration of Round 1 Allotment List",
+          "description": "First round seat allotment result announced. Check your allotted college and branch.",
+          "startDate": "2026-06-25",
+          "endDate": null,
+          "tag": "Round 1",
+          "tagColor": "#0dd3c5",
+          "important": true,
+          "actionRequired": false
+        },
+        {
+          "id": 12,
+          "title": "Token Fee Payment & Admission Letter – Round 1",
+          "description": "Pay token tuition fees online and download your admission letter.",
+          "startDate": "2026-06-25",
+          "endDate": "2026-06-30",
+          "tag": "Payment",
+          "tagColor": "#f5a623",
+          "important": true,
+          "actionRequired": true,
+          "actionLabel": "Pay Token Fee"
+        },
+        {
+          "id": 13,
+          "title": "Commencement of Academic Term",
+          "description": "First day of the new academic year at all ACPC-affiliated engineering institutes.",
+          "startDate": "2026-07-01",
+          "endDate": null,
+          "tag": "Academic",
+          "tagColor": "#4caf50",
+          "important": true,
+          "actionRequired": false
+        },
+        {
+          "id": 14,
+          "title": "Online Cancellation of Admission – Round 1",
+          "description": "Window to cancel your Round 1 allotment if you wish to try for a better option in later rounds.",
+          "startDate": "2026-06-26",
+          "endDate": "2026-07-02",
+          "tag": "Cancellation",
+          "tagColor": "#ef5350",
+          "important": false,
+          "actionRequired": false
+        },
+        {
+          "id": 15,
+          "title": "Display of Vacancy After Round 1",
+          "description": "Remaining vacant seats after Round 1 confirmations and cancellations displayed.",
+          "startDate": "2026-07-03",
+          "endDate": null,
+          "tag": "Vacancy",
+          "tagColor": "#9c6fff",
+          "important": false,
+          "actionRequired": false
+        },
+        {
+          "id": 16,
+          "title": "Online Registration for Non-Registered Candidates",
+          "description": "New registration window for candidates who hadn't registered earlier, for available seats.",
+          "startDate": "2026-07-01",
+          "endDate": "2026-07-05",
+          "tag": "Registration",
+          "tagColor": "#f5a623",
+          "important": false,
+          "actionRequired": false
+        }
+      ]
+    },
+    {
+      "id": "phase-round2",
+      "label": "Round 2",
+      "color": "#f5a623",
+      "icon": "🔄",
+      "events": [
+        {
+          "id": 17,
+          "title": "Publication of Revised Merit List",
+          "description": "Updated merit list published after result improvements from various boards.",
+          "startDate": "2026-07-10",
+          "endDate": null,
+          "tag": "Merit List",
+          "tagColor": "#9c6fff",
+          "important": false,
+          "actionRequired": false
+        },
+        {
+          "id": 18,
+          "title": "Consent & Choice Filling – Round 2",
+          "description": "Fill or update your college and branch preferences for the second round of allotment.",
+          "startDate": "2026-07-10",
+          "endDate": "2026-07-13",
+          "tag": "Round 2",
+          "tagColor": "#f5a623",
+          "important": true,
+          "actionRequired": true,
+          "actionLabel": "Fill Choices"
+        },
+        {
+          "id": 19,
+          "title": "Declaration of Round 2 Allotment List",
+          "description": "Second round seat allotment result announced at 2 PM.",
+          "startDate": "2026-07-15",
+          "endDate": null,
+          "time": "2:00 PM",
+          "tag": "Round 2",
+          "tagColor": "#f5a623",
+          "important": true,
+          "actionRequired": false
+        },
+        {
+          "id": 20,
+          "title": "Token Fee Payment & Admission Letter – Round 2",
+          "description": "Pay token tuition fees and generate admission letter for Round 2 allotment.",
+          "startDate": "2026-07-15",
+          "endDate": "2026-07-19",
+          "tag": "Payment",
+          "tagColor": "#f5a623",
+          "important": true,
+          "actionRequired": true,
+          "actionLabel": "Pay Token Fee"
+        },
+        {
+          "id": 21,
+          "title": "Online Withdrawal of Admission – Round 2",
+          "description": "Last chance to withdraw from Round 2 allotment before final confirmation.",
+          "startDate": "2026-07-15",
+          "endDate": "2026-07-19",
+          "tag": "Cancellation",
+          "tagColor": "#ef5350",
+          "important": false,
+          "actionRequired": false
+        },
+        {
+          "id": 22,
+          "title": "Display of Final Vacancy After Round 2",
+          "description": "Vacant seats after Round 2 published for Round 3 candidates.",
+          "startDate": "2026-07-20",
+          "endDate": null,
+          "tag": "Vacancy",
+          "tagColor": "#9c6fff",
+          "important": false,
+          "actionRequired": false
+        }
+      ]
+    },
+    {
+      "id": "phase-round3",
+      "label": "Round 3",
+      "color": "#4caf50",
+      "icon": "🎯",
+      "events": [
+        {
+          "id": 23,
+          "title": "Consent & Choice Filling – Round 3",
+          "description": "Fill or alter choices for the third round of seat allotment.",
+          "startDate": "2026-07-20",
+          "endDate": "2026-07-23",
+          "tag": "Round 3",
+          "tagColor": "#4caf50",
+          "important": true,
+          "actionRequired": true,
+          "actionLabel": "Fill Choices"
+        },
+        {
+          "id": 24,
+          "title": "Declaration of Round 3 Allotment List",
+          "description": "Third round seat allotment result published.",
+          "startDate": "2026-07-25",
+          "endDate": null,
+          "tag": "Round 3",
+          "tagColor": "#4caf50",
+          "important": true,
+          "actionRequired": false
+        },
+        {
+          "id": 25,
+          "title": "Token Fee Payment & Admission Letter – Round 3",
+          "description": "Pay token fees and download admission letter for Round 3.",
+          "startDate": "2026-07-25",
+          "endDate": "2026-07-27",
+          "tag": "Payment",
+          "tagColor": "#f5a623",
+          "important": true,
+          "actionRequired": true,
+          "actionLabel": "Pay Token Fee"
+        },
+        {
+          "id": 26,
+          "title": "Online Cancellation of Admission – Round 3",
+          "description": "Window to cancel Round 3 allotment.",
+          "startDate": "2026-07-25",
+          "endDate": "2026-07-27",
+          "tag": "Cancellation",
+          "tagColor": "#ef5350",
+          "important": false,
+          "actionRequired": false
+        },
+        {
+          "id": 27,
+          "title": "Display of Vacancy After Round 3",
+          "description": "Remaining vacant seats after Round 3 published.",
+          "startDate": "2026-07-28",
+          "endDate": null,
+          "tag": "Vacancy",
+          "tagColor": "#9c6fff",
+          "important": false,
+          "actionRequired": false
+        },
+        {
+          "id": 28,
+          "title": "Last Date of Reporting at Institute & Fee Payment",
+          "description": "Final deadline to report to your allotted institute and pay remaining tuition fees.",
+          "startDate": "2026-07-28",
+          "endDate": null,
+          "tag": "Deadline",
+          "tagColor": "#ef5350",
+          "important": true,
+          "actionRequired": true,
+          "actionLabel": "Report to College"
+        }
+      ]
+    },
+    {
+      "id": "phase-online-govt",
+      "label": "Govt / GIA Online Round",
+      "color": "#f06292",
+      "icon": "🏛️",
+      "events": [
+        {
+          "id": 29,
+          "title": "Choice Filling – Online Round (Govt & GIA)",
+          "description": "Consent and choice filling for online round specifically for Government and Grant-in-Aid institutes.",
+          "startDate": "2026-07-28",
+          "endDate": "2026-07-30",
+          "tag": "Govt Round",
+          "tagColor": "#f06292",
+          "important": true,
+          "actionRequired": true,
+          "actionLabel": "Fill Choices"
+        },
+        {
+          "id": 30,
+          "title": "Declaration of Allotment – Online Round (Govt & GIA)",
+          "description": "Allotment result for Government and GIA institutes online round declared.",
+          "startDate": "2026-08-01",
+          "endDate": null,
+          "tag": "Govt Round",
+          "tagColor": "#f06292",
+          "important": true,
+          "actionRequired": false
+        },
+        {
+          "id": 31,
+          "title": "Token Fee Payment – Online Round (Govt & GIA)",
+          "description": "Pay token fees and generate admission letter for Govt/GIA online round.",
+          "startDate": "2026-08-01",
+          "endDate": "2026-08-04",
+          "tag": "Payment",
+          "tagColor": "#f5a623",
+          "important": true,
+          "actionRequired": true,
+          "actionLabel": "Pay Token Fee"
+        }
+      ]
+    },
+    {
+      "id": "phase-nonallotment",
+      "label": "Non-Allotment (Tentative)",
+      "color": "#64748b",
+      "icon": "📌",
+      "events": [
+        {
+          "id": 32,
+          "title": "Registration for Vacant Seats – Govt / GIA (Non-Allotment)",
+          "description": "Tentative: registration window for candidates seeking admission to remaining vacant seats in Government and GIA institutes.",
+          "startDate": "2026-08-05",
+          "endDate": "2026-08-07",
+          "tag": "Tentative",
+          "tagColor": "#64748b",
+          "important": false,
+          "actionRequired": false,
+          "tentative": true
+        },
+        {
+          "id": 33,
+          "title": "Publication of Merit for Vacant Seats – Govt / GIA (Non-Allotment)",
+          "description": "Tentative: merit list published for candidates applying to vacant Govt/GIA seats.",
+          "startDate": "2026-08-10",
+          "endDate": null,
+          "tag": "Tentative",
+          "tagColor": "#64748b",
+          "important": false,
+          "actionRequired": false,
+          "tentative": true
+        },
+        {
+          "id": 34,
+          "title": "Counselling for Vacant Seats – Govt / GIA (Non-Allotment)",
+          "description": "Tentative: physical counselling conducted for remaining vacant seats in Government and GIA institutes.",
+          "startDate": "2026-08-12",
+          "endDate": null,
+          "tag": "Tentative",
+          "tagColor": "#64748b",
+          "important": false,
+          "actionRequired": false,
+          "tentative": true
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "These are provisional dates based on expected declarations from various boards, entrance exams, seat approvals, and JoSAA counselling.",
+    "All activities are time-bound. Candidates must complete them by logging in at www.gujacpc.admissions.nic.in.",
+    "Candidates are advised to visit the official website regularly for any schedule changes or further information."
+  ]
+}

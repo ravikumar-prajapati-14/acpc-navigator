@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>College Detail – ACPC Portal</title>
+  <link rel="stylesheet" href="./college_module_style.css" />
+</head>
+<body>
+  <header class="app-bar">
+    <a class="icon-btn" href="./colleges.html" aria-label="Back">&larr;</a>
+    <h1 class="app-title" id="collegeTitle">College</h1>
+    <span style="width:40px"></span>
+  </header>
+  <nav class="detail-tabs" id="detailTabs">
+    <button class="tab active" data-tab="info">Information</button>
+    <button class="tab" data-tab="intake">Intake</button>
+    <button class="tab" data-tab="cutoff">Cutoff</button>
+    <button class="tab" data-tab="placement">Placement</button>
+  </nav>
+  <main class="detail-content">
+    <section class="tab-panel active" id="panel-info">Loading…</section>
+    <section class="tab-panel" id="panel-intake"></section>
+    <section class="tab-panel" id="panel-cutoff"></section>
+    <section class="tab-panel" id="panel-placement"></section>
+  </main>
+  <script src="./detail.js"></script>
+</body>
+</html>

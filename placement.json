@@ -1,0 +1,702 @@
+[
+  {
+    "college_id": 1,
+    "college_name": "DR. S & S.S.Ghandhi Government Engineering College Surat",
+    "link": "Currently unavailable data"
+  },
+  {
+    "college_id": 2,
+    "college_name": "Government Engineering College, Bharuch",
+    "link": "http://diet.vc/CP-GECBharuch"
+  },
+  {
+    "college_id": 3,
+    "college_name": "Government Engineering College, Bhavnagar",
+    "link": "http://diet.vc/CP-GECBhavnagar"
+  },
+  {
+    "college_id": 4,
+    "college_name": "Government Engineering College, Bhuj",
+    "link": "http://diet.vc/CP-GECBhuj"
+  },
+  {
+    "college_id": 5,
+    "college_name": "Government Engineering College, Dahod",
+    "link": "http://diet.vc/CP-GECDahod"
+  },
+  {
+    "college_id": 6,
+    "college_name": "Government Engineering College, Godhra",
+    "link": "Currently unavailable data"
+  },
+  {
+    "college_id": 7,
+    "college_name": "Government Engineering College, Modasa",
+    "link": "http://diet.vc/CP-GECModasa"
+  },
+  {
+    "college_id": 8,
+    "college_name": "Government Engineering College, Palanpur",
+    "link": "http://diet.vc/CP-GECPalanpur"
+  },
+  {
+    "college_id": 9,
+    "college_name": "Government Engineering College, Patan",
+    "link": "http://diet.vc/CP-GECPatan"
+  },
+  {
+    "college_id": 10,
+    "college_name": "Government Engineering College, Rajkot",
+    "link": "http://diet.vc/CP-GECRajkot"
+  },
+  {
+    "college_id": 11,
+    "college_name": "Government Engineering College, Sector 28 Gandhinagar",
+    "link": "http://diet.vc/CP-GECGandhinagar"
+  },
+  {
+    "college_id": 12,
+    "college_name": "Government Engineering College, Valsad",
+    "link": "http://diet.vc/CP-GECValsad"
+  },
+  {
+    "college_id": 13,
+    "college_name": "L.D.College Of Engineering, Ahmedabad",
+    "link": " http://diet.vc/CP-LD"
+  },
+  {
+    "college_id": 14,
+    "college_name": "L.E.College ,Morbi",
+    "link": "http://diet.vc/CP-LE"
+  },
+  {
+    "college_id": 15,
+    "college_name": "Shantilal Shah Engineering College ,Bhavnagar",
+    "link": "http://diet.vc/CP-Shantilal"
+  },
+  {
+    "college_id": 16,
+    "college_name": "Vishwakarma Government Engineering College,",
+    "link": "http://diet.vc/CP-VGEC"
+  },
+  {
+    "college_id": 17,
+    "college_name": "Birla Vishvakarma Maha Vidhyalaya(GIA), V.V.Nagar",
+    "link": "http://diet.vc/CP-BVM"
+  },
+  {
+    "college_id": 18,
+    "college_name": "Faculty Of Technology & Engineering(GIA) (MSU), Vadodara",
+    "link": "https://msubaroda.ac.in/Placements"
+  },
+  {
+    "college_id": 19,
+    "college_name": "Faculty Of Technology And Engineering(GIA), Dharmsinh",
+    "link": "http://diet.vc/CP-DDU"
+  },
+  {
+    "college_id": 20,
+    "college_name": "Institute of Infrastructure, Tech., Research & Management",
+    "link": "http://diet.vc/CP-IITRAM"
+  },
+  {
+    "college_id": 21,
+    "college_name": "A.D.Patel Institute Of Technology,Karamsad",
+    "link": "http://diet.vc/CP-ADIT"
+  },
+  {
+    "college_id": 22,
+    "college_name": "ADANI UNIVERSITY - FACULTY OF ENGINEERING",
+    "link": "http://diet.vc/CP-Adani"
+  },
+  {
+    "college_id": 23,
+    "college_name": "ADITYA SILVER OAK INSTITUTE OF TECHNOLOGY",
+    "link": "http://diet.vc/CP-SilverOak"
+  },
+  {
+    "college_id": 24,
+    "college_name": "Ahmedabad Institute Of Technology, Ahmedabad",
+    "link": "http://diet.vc/CP-AIT"
+  },
+  {
+    "college_id": 25,
+    "college_name": "Ahmedabad University, Ahmedabad",
+    "link": "http://diet.vc/CP-AU"
+  },
+  {
+    "college_id": 26,
+    "college_name": "AMRUT INSTITUTE, JUNAGADH",
+    "link": "https://ahduni.edu.in/site/assets/files/13013/amsom_placements2025_may15_24.pdf"
+  },
+  {
+    "college_id": 27,
+    "college_name": "Anant School for Climate Action, Ahmedabad",
+    "link": "Currently unavailable data"
+  },
+  {
+    "college_id": 28,
+    "college_name": "APOLLO INSTITUTE OF ENGINEERING & TECHNOLOGY AHMEDABAD",
+    "link": "http://diet.vc/CP-Apollo"
+  },
+  {
+    "college_id": 29,
+    "college_name": "Arrdekta Institute Of Technology, Khedbrahma, Sabarkantha",
+    "link": "http://diet.vc/CP-Arrdekta"
+  },
+  {
+    "college_id": 30,
+    "college_name": "Asha M. Tarsadia Institute of Computer Science & Technology, Maliba Campus, Bardoli",
+    "link": "http://diet.vc/CP-AMTarsadiya"
+  },
+  {
+    "college_id": 31,
+    "college_name": "Atmiya University, Faculty of Engineering and Technology, Rajkot",
+    "link": "http://diet.vc/CP-Atmiya"
+  },
+  {
+    "college_id": 32,
+    "college_name": "C. K. Pithawala College Of Engineering & Technology, Surat",
+    "link": "http://diet.vc/CP-Ckpithawala"
+  },
+  {
+    "college_id": 33,
+    "college_name": "C.U.Shah College Of Engineering & Technology,Wadhvan",
+    "link": "http://diet.vc//CP-CUShah"
+  },
+  {
+    "college_id": 34,
+    "college_name": "Central Institute of Petrochemicals Engineering & Technology",
+    "link": "Currently unavailable data"
+  },
+  {
+    "college_id": 35,
+    "college_name": "Charotar University of Science & Technology (CHARUSAT) - Chandubhai S Patel Institute Of Technology (CSPIT), Changa",
+    "link": "http://diet.vc/CP-Changa"
+  },
+  {
+    "college_id": 36,
+    "college_name": "Charotar University of Science & Technology (CHARUSAT) - Devang Patel Institute of Advance Technology And Research (DEPSTAR), Changa",
+    "link": " http://diet.vc/CP-Changa"
+  },
+  {
+    "college_id": 37,
+    "college_name": "Chhotubhai Gopalbhai Patel Institute of Technology, Maliba Campus, Bardoli",
+    "link": "http://diet.vc/CP-Chhottubhai"
+  },
+  {
+    "college_id": 38,
+    "college_name": "D. A. Degree Engineering and Technology, Mahemdabad, Kheda",
+    "link": "http://diet.vc/CP-DADegree"
+  },
+  {
+    "college_id": 39,
+    "college_name": "Dalia Institute of Technology, Kanera",
+    "link": "Currently unavailable data"
+  },
+  {
+    "college_id": 40,
+    "college_name": "Darshan Institute Of Engineering & Technology, Rajkot",
+    "link": "http://diet.vc/CP-Darshan"
+  },
+  {
+    "college_id": 41,
+    "college_name": "Dhirubhai Ambani University, Gandhinagar",
+    "link": "http://diet.vc/CP-Daiict"
+  },
+  {
+    "college_id": 42,
+    "college_name": "Dr. Jivraj Mehta Institute Of Technology, Anand",
+    "link": "http://diet.vc/CP-DrJivraj"
+  },
+  {
+    "college_id": 43,
+    "college_name": "Dr. Subhash University, School of Engineering & Technology, Junagadh",
+    "link": "http://diet.vc/CP-DrSubhash"
+  },
+  {
+    "college_id": 44,
+    "college_name": "Dr. V.R. Godhania College of Engineering & Technology, Porbandar",
+    "link": "Currently unavailable data"
+  },
+  {
+    "college_id": 45,
+    "college_name": "Engineering College, Tuwa, Godhara",
+    "link": "http://http//diet.vc/CP-Tuwa"
+  },
+  {
+    "college_id": 46,
+    "college_name": "Faculty of Engineering & Technology- Sigma",
+    "link": "http://diet.vc/CP-Sigma"
+  },
+  {
+    "college_id": 47,
+    "college_name": "Faculty Of Technology & Engineering(MSU)(SFI), Vadodara",
+    "link": "https://msubaroda.ac.in/Placements"
+  },
+  {
+    "college_id": 48,
+    "college_name": "Faculty Of Technology(SFI), Dharmsinh Desai University,",
+    "link": " http://diet.vc/CP-DDU"
+  },
+  {
+    "college_id": 49,
+    "college_name": "Faculty of Technology, CEPT University, Ahmedabad",
+    "link": "Currently unavailable data"
+  },
+  {
+    "college_id": 50,
+    "college_name": "G.H.Patel College Of Engineering & Technology, V. V. Nagar",
+    "link": "http://diet.vc/CP-GCET-CE"
+  },
+  {
+    "college_id": 51,
+    "college_name": "Gandhinagar Institute Of Technology, Moti Bhoyan, Kalol, Gandhinagar",
+    "link": "http://diet.vc/CP-GIT"
+  },
+  {
+    "college_id": 52,
+    "college_name": "Ganpat University, Institute of Computer Technology, Kherva, Mehsana",
+    "link": "http://diet.vc/CP-GTUMehsana"
+  },
+  {
+    "college_id": 53,
+    "college_name": "Ganpat University, U.V.Patel College of Engineering, Kherva, Mehsana",
+    "link": "https://www.ganpatuniversity.ac.in/about/placements"
+  },
+  {
+    "college_id": 54,
+    "college_name": "GIDC Degree Engineering College, Abrama, Navsari",
+    "link": "http://diet.vc/CP-GIDC"
+  },
+  {
+    "college_id": 55,
+    "college_name": "GLS Faculty of Engineering & Technology- GLS University, Ahmedabad",
+    "link": "http://diet.vc/CP-GLS"
+  },
+  {
+    "college_id": 56,
+    "college_name": "Hansaba Institute of Technology, Siddhpur",
+    "link": "http://diet.vc/CP-Hansaba"
+  },
+  {
+    "college_id": 57,
+    "college_name": "Hasmukh Goswami College Of Engineering, Vahelal",
+    "link": "http://diet.vc/CP-Hasmukh"
+  },
+  {
+    "college_id": 58,
+    "college_name": "Indus Institute Of Technology & Engineering, Racharda,",
+    "link": "http://diet.vc/CP-Indus"
+  },
+  {
+    "college_id": 59,
+    "college_name": "Institute of Advanced Research, Gandhinagar",
+    "link": " http://diet.vc/CP-IAR"
+  },
+  {
+    "college_id": 60,
+    "college_name": "Institute Of Technology, Nirma University",
+    "link": "http://diet.vc/CP-Nirma"
+  },
+  {
+    "college_id": 61,
+    "college_name": "Ipcowala Institute Of Engineering And Technology Dharmaj",
+    "link": "Currently unavailable data"
+  },
+  {
+    "college_id": 62,
+    "college_name": "ITM (SLS) Baroda University, Vadodara",
+    "link": "http://diet.vc/CP-ITMSLS"
+  },
+  {
+    "college_id": 63,
+    "college_name": "ITM Vocational University, Waghodia, Dist: Vadodara",
+    "link": "http://diet.vc//CP-ITMVoc"
+  },
+  {
+    "college_id": 64,
+    "college_name": "JG University - School of Engineering, Ahmedabad",
+    "link": "Currently unavailable data"
+  },
+  {
+    "college_id": 65,
+    "college_name": "K N SCHOOL OF TECHNOLOGY, AHMEDABD",
+    "link": "Currently unavailable data"
+  },
+  {
+    "college_id": 66,
+    "college_name": "K.J. Institute Of Engineering & Technology, Savali",
+    "link": " http://diet.vc/CP-KJIET"
+  },
+  {
+    "college_id": 67,
+    "college_name": "Kalol Institute Of Tech. & Research Center ,Kalol",
+    "link": "Currently unavailable data"
+  },
+  {
+    "college_id": 68,
+    "college_name": "KANKESHWARIDEVI INSTITUTE OF TECHNOLOGY, JAMNAGAR",
+    "link": "http://diet.vc/CP-KIT"
+  },
+  {
+    "college_id": 69,
+    "college_name": "Krishna School of Emerging Technology & Applied Research",
+    "link": "http://diet.vc/CP-KSET"
+  },
+  {
+    "college_id": 70,
+    "college_name": "L.D.R.P. Institute of Technology & Research, Gandhinagar",
+    "link": "http://diet.vc/CP-LDRP"
+  },
+  {
+    "college_id": 71,
+    "college_name": "L.J. Institute Of Engineering & Technology, Ahmedabad",
+    "link": "http://diet.vc/CP-LJIT"
+  },
+  {
+    "college_id": 72,
+    "college_name": "Laljibhai Chaturbhai Institute Of Technology, Bhandu, Mahesana",
+    "link": "http://diet.vc/CP-LCIT"
+  },
+  {
+    "college_id": 73,
+    "college_name": "Laxmi Institute Of Technology, Sarigam, Valsad",
+    "link": "http://diet.vc/CP-Laxmi"
+  },
+  {
+    "college_id": 74,
+    "college_name": "Madhuben & Bhanubhai Patel Institute of Technology, New V.V.Nagar",
+    "link": "http://diet.vc/CP-MBPIT"
+  },
+  {
+    "college_id": 75,
+    "college_name": "Mahatma Gandhi Institute Of Technical Education And Research Center,Navsari",
+    "link": "Currently unavailable data"
+  },
+  {
+    "college_id": 76,
+    "college_name": "Mahavir Swami College Of Engineering & Technology, Bharthana-Vesu, Surat",
+    "link": "http://diet.vc/CP-Mahavir"
+  },
+  {
+    "college_id": 77,
+    "college_name": "Marwadi Education Foundation's Group of Institutions - Faculty of Engineering & Technology, Rajkot",
+    "link": "http://diet.vc/CP-Marwadi"
+  },
+  {
+    "college_id": 78,
+    "college_name": "Merchant Engineering College, Basna. Visnagar",
+    "link": "Currently unavailable data"
+  },
+  {
+    "college_id": 79,
+    "college_name": "Neotech Institute of Technology, Virod, Vadodara",
+    "link": "http://diet.vc/CP-Neotech"
+  },
+  {
+    "college_id": 80,
+    "college_name": "New L.J. Institute of Engineering & Technology",
+    "link": "http://diet.vc/CP-LJIT"
+  },
+  {
+    "college_id": 81,
+    "college_name": "Pandit Deendayal Energy University ,Gandhinagar",
+    "link": "http://diet.vc/CP-PDEU"
+  },
+  {
+    "college_id": 82,
+    "college_name": "Parul Institute of Engineering & Technology, Waghodia, Vadodara",
+    "link": " http://diet.vc/CP-Parul"
+  },
+  {
+    "college_id": 83,
+    "college_name": "Parul Institute of Technology, Waghodia, Vadodara",
+    "link": "http://diet.vc/CP-Parul"
+  },
+  {
+    "college_id": 84,
+    "college_name": "Prime Institute of Engineering and Technology, Jalalpore, Navsari",
+    "link": "http://diet.vc/CP-Prime"
+  },
+  {
+    "college_id": 85,
+    "college_name": "R.K. University - School of Engineering, Rajkot",
+    "link": "http://diet.vc/CP-RKU"
+  },
+  {
+    "college_id": 86,
+    "college_name": "R.N.G. Patel Institute of Technology-RNGPIT , Bardoli",
+    "link": "http://diet.vc/CP-RNGPIT"
+  },
+  {
+    "college_id": 87,
+    "college_name": "Rai School of Engineering, Dholka, Ahmedabad",
+    "link": "Currently unavailable data"
+  },
+  {
+    "college_id": 88,
+    "college_name": "S. N. Patel Institute of Technology (SNPIT), Bardoli, Surat",
+    "link": " http://diet.vc/CP-Sitarambhai"
+  },
+  {
+    "college_id": 89,
+    "college_name": "S.P.B. Patel Engineering College, (Saffrony), Linch, Mehsana",
+    "link": "http://diet.vc/CP-SPB"
+  },
+  {
+    "college_id": 90,
+    "college_name": "S.S.AGRAWAL INSTITUTE OF ENGINEERING & TECHNOLOGY NAVSARI",
+    "link": "http://diet.vc/CP-SSAgrawal"
+  },
+  {
+    "college_id": 91,
+    "college_name": "Sal College Of Engineering , Ahmedabad",
+    "link": "http://diet.vc/CP-SAL"
+  },
+  {
+    "college_id": 92,
+    "college_name": "SAL ENGINEERING &TECHNICAL INSTITUTE, SOLA, AHMEDABAD",
+    "link": "http://diet.vc/CP-SAL"
+  },
+  {
+    "college_id": 93,
+    "college_name": "Sal Institute Of Technology & Engineering Research, Ahmedabad",
+    "link": "http://diet.vc/CP-SAL"
+  },
+  {
+    "college_id": 94,
+    "college_name": "Sanjaybhai Rajguru College of Engineering , Rajkot",
+    "link": "http://diet.vc/CP-Sanjaybhai"
+  },
+  {
+    "college_id": 95,
+    "college_name": "Sankalchand Patel College Of Engineering, Visnagar",
+    "link": "http://diet.vc/CP-Sankalchand"
+  },
+  {
+    "college_id": 96,
+    "college_name": "Sardar Patel College of Engineering and Technology, Bakrol, Anand",
+    "link": "Currently unavailable data"
+  },
+  {
+    "college_id": 97,
+    "college_name": "SARDAR VALLABHBHAI GLOBAL University - UCP Institute of Technology, Ahmedabad",
+    "link": "Currently unavailable data"
+  },
+  {
+    "college_id": 98,
+    "college_name": "Sardar Vallabhbhai Patel Institute Of Technology,Vasad",
+    "link": "http://diet.vc/CP-SVIT"
+  },
+  {
+    "college_id": 99,
+    "college_name": "Sarvajanik College Of Engineering & Technology, Surat",
+    "link": "http://diet.vc/CP-Sarvajanik"
+  },
+  {
+    "college_id": 100,
+    "college_name": "School of Computer Science - SKIPS University",
+    "link": "Currently unavailable data"
+  },
+  {
+    "college_id": 101,
+    "college_name": "School of Engineering - Indrashil University, Kadi",
+    "link": "http://diet.vc/CP-Indrashil"
+  },
+  {
+    "college_id": 102,
+    "college_name": "School of Engineering and Technology, Navrachana University, Vadodara",
+    "link": "http://diet.vc/CP-Navrachana"
+  },
+  {
+    "college_id": 103,
+    "college_name": "School of Engineering, Plastindia International University, Vapi",
+    "link": "Currently unavailable data"
+  },
+  {
+    "college_id": 104,
+    "college_name": "SCHOOL OF TECHNOLOGY, GSFC UNIVERSITY, VADODARA",
+    "link": "http://diet.vc/CP-GSFC"
+  },
+  {
+    "college_id": 105,
+    "college_name": "Shankersinh Vaghela Bapu Institute Of Technology, Unava",
+    "link": "http://diet.vc/CP-Shankersinh"
+  },
+  {
+    "college_id": 106,
+    "college_name": "SHREE DHANVANTARY COLLEGE OF ENGINEERING",
+    "link": "http://diet.vc/CP-Dhanvantary"
+  },
+  {
+    "college_id": 107,
+    "college_name": "Shree Pandit Nathulalji Vyas Technical Campus, Wadhawan",
+    "link": "Currently unavailable data"
+  },
+  {
+    "college_id": 108,
+    "college_name": "SHREE PAREKH ENGINEEIRNG COLLEGE, MAHUVA",
+    "link": "Currently unavailable data"
+  },
+  {
+    "college_id": 109,
+    "college_name": "SHREE SWAMINARAYAN INSTITUTE OF TECHNOLOGY, BHAT",
+    "link": "Currently unavailable data"
+  },
+  {
+    "college_id": 110,
+    "college_name": "Shri J M Sabva Institute Of Engineering And Technology",
+    "link": "Currently unavailable data"
+  },
+  {
+    "college_id": 111,
+    "college_name": "Shri Labhubhai Trivedi Institute Of Engineering",
+    "link": "http://diet.vc/CP-Labhubhai"
+  },
+  {
+    "college_id": 112,
+    "college_name": "Swaminarayan College Of Engineering & Technology, Kalol",
+    "link": "Currently unavailable data"
+  },
+  {
+    "college_id": 113,
+    "college_name": "Swarrnim Institute of Technology",
+    "link": "http://diet.vc/CP-Swarrnim"
+  },
+  {
+    "college_id": 114,
+    "college_name": "Unitedworld Institute of Technology, Uvarsad, Gandhinagar",
+    "link": "Currently unavailable data"
+  },
+  {
+    "college_id": 115,
+    "college_name": "V.V.P. Engineering College, Rajkot",
+    "link": "http://diet.vc/CP-VVP"
+  },
+  {
+    "college_id": 116,
+    "college_name": "Vadodara Institute of Engineering, Kotambi, Waghodiya, Vadodara",
+    "link": "http://diet.vc/CP-VIE"
+  },
+  {
+    "college_id": 117,
+    "college_name": "VEERAYATAN INSTITUTE OF ENGINEERING, Mandvi",
+    "link": "http://diet.vc/CP-Veerayatan"
+  },
+  {
+    "college_id": 118,
+    "college_name": "Vidhyadeep Institute of Engineering & Technology,",
+    "link": "http://diet.vc/CP-Vidhyadeep"
+  },
+  {
+    "college_id": 119,
+    "college_name": "Vidush Somany Institute Of Technology & Research, Kadi",
+    "link": "http://diet.vc/CP-Vidush"
+  },
+  {
+    "college_id": 120,
+    "college_name": "B.H.Gardi College Of Engineering & Technology , Rajkot",
+    "link": "http://diet.vc/CP-BHGardi"
+  },
+  {
+    "college_id": 121,
+    "college_name": "Bhagwan Arihant Institute of Technology, Surat",
+    "link": "http://diet.vc/CP-BhagwanArihant"
+  },
+  {
+    "college_id": 122,
+    "college_name": "Bhagwan Mahavir College of Engineering & Technology, Surat",
+    "link": "http://diet.vc/CP-BhagwanMahavir"
+  },
+  {
+    "college_id": 123,
+    "college_name": "Birla Vishvakarma Maha Vidhylaya(Sfi), V.V.Nagar",
+    "link": "http://diet.vc/CP-BVM"
+  },
+  {
+    "college_id": 124,
+    "college_name": "Grow More Faculty of Engineering, Berna, Himmatnagar",
+    "link": "http://diet.vc/CP-GrowMore"
+  },
+  {
+    "college_id": 125,
+    "college_name": "Gujarat Technological University - Institute of Technology and Research, Mevad, Mehsana",
+    "link": "http://diet.vc/CP-GTUMehsana"
+  },
+  {
+    "college_id": 126,
+    "college_name": "Gujarat Technological University School of Engineering and Technology, Chandkheda, Ahmedabad",
+    "link": "Currently unavailable data"
+  },
+  {
+    "college_id": 127,
+    "college_name": "GYANMANJARI INSTITUTE OF TECHNOLOGY Bhavnagar",
+    "link": "http://diet.vc/CP-Gyanmanjari"
+  },
+  {
+    "college_id": 128,
+    "college_name": "Hansaba Institute of Technology, Siddhpur",
+    "link": "http://diet.vc/CP-Hansaba"
+  },
+  {
+    "college_id": 129,
+    "college_name": "Noble Engineering College, Junagadh",
+    "link": "http://diet.vc/CP-Noble"
+  },
+  {
+    "college_id": 130,
+    "college_name": "Om Engineering College Junagadh",
+    "link": "http://diet.vc/CP-OM"
+  },
+  {
+    "college_id": 131,
+    "college_name": "OM INSTITUTE OF TECHNOLOGY, SHAHERA",
+    "link": "Currently unavailable data"
+  },
+  {
+    "college_id": 132,
+    "college_name": "P.P. Savani School of Engineering, P.P. Savani University",
+    "link": "http://diet.vc/CP-PPSavani"
+  },
+  {
+    "college_id": 133,
+    "college_name": "Pacific School Of Engineering, Surat",
+    "link": "http://diet.vc/CP-Pacific"
+  },
+  {
+    "college_id": 134,
+    "college_name": "Shri Sadvidhya Mandal Institute Of Technology, Bharuch",
+    "link": "Currently unavailable data"
+  },
+  {
+    "college_id": 135,
+    "college_name": "Shri Satsangi Saketdham `Ram Ashram` Group Of Institutions, Vadasma",
+    "link": "Currently unavailable data"
+  },
+  {
+    "college_id": 136,
+    "college_name": "Shri Swami Atmanand Saraswati Institute Of Technology, Surat",
+    "link": "http://diet.vc/CP-Swami"
+  },
+  {
+    "college_id": 137,
+    "college_name": "Shroff S.R.Rotary Institute Of Chemical Technology, Vataria",
+    "link": "http://diet.vc/CP-Shroff"
+  },
+  {
+    "college_id": 138,
+    "college_name": "Sigma Institute Of Engineering, Bakrol",
+    "link": "http://diet.vc/CP-Sigma"
+  },
+  {
+    "college_id": 139,
+    "college_name": "Silver Oak College Of Engineering & Technology, Ahmedabad",
+    "link": "http://diet.vc/CP-SilverOak"
+  },
+  {
+    "college_id": 140,
+    "college_name": "Smt. S.R. Patel Engineering College, Dabhi, Unjha",
+    "link": "http://diet.vc/CP-SRPatel"
+  }
+]

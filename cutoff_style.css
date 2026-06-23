@@ -1,0 +1,243 @@
+/* ===== Cutoff Section ===== */
+:root {
+  --c-primary: #1976d2;
+  --c-primary-soft: #e8f1fb;
+  --c-primary-dark: #115ca8;
+  --c-bg: #ffffff;
+  --c-bg-soft: #f6f9fc;
+  --c-text: #1a2233;
+  --c-text-soft: #5b6577;
+  --c-text-mute: #8a93a4;
+  --c-border: #e3e7ee;
+  --c-shadow: 0 2px 10px rgba(25, 118, 210, 0.08);
+  --c-radius: 12px;
+}
+
+* { box-sizing: border-box; }
+body[data-page="cutoff"] {
+  margin: 0;
+  background: var(--c-bg);
+  color: var(--c-text);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* App bar */
+.cutoff-bar {
+  position: sticky; top: 0; z-index: 50;
+  display: flex; align-items: center ;
+  background: var(--c-primary); color: #fff;
+  padding: 0 10px; height: 56px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.cutoff-bar .back-btn {
+  width: 36px; height: 36px; border-radius: 50%;
+  display: grid; place-items: center;
+  color: #fff; text-decoration: none; font-size: 22px;
+}
+.cutoff-bar .back-btn:hover { background: rgba(255,255,255,0.15); }
+.cutoff-title {
+  flex: 1; margin: 0;
+  text-align: center; font-size: 17px; font-weight: 600;
+}
+
+/* Page wrap */
+.cutoff-wrap {
+  max-width: 720px; margin: 0 auto;
+  padding: 16px 12px 40px;
+}
+
+/* Fields */
+.cutoff-field { margin-bottom: 14px; }
+.cutoff-label {
+  display: block;
+  font-size: 12px; font-weight: 600;
+  color: var(--c-text-soft);
+  margin-bottom: 6px;
+  letter-spacing: .3px; text-transform: uppercase;
+}
+.cutoff-search-wrap { position: relative; }
+#collegeSearch,
+.cutoff-select {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid var(--c-border);
+  border-radius: var(--c-radius);
+  background: #fff;
+  font-size: 14px; color: var(--c-text);
+  outline: none;
+  box-shadow: var(--c-shadow);
+  transition: border-color .15s, box-shadow .15s;
+}
+#collegeSearch:focus,
+.cutoff-select:focus {
+  border-color: var(--c-primary);
+  box-shadow: 0 0 0 3px rgba(25,118,210,0.15);
+}
+.cutoff-select { appearance: none; -webkit-appearance: none;
+  background-image: linear-gradient(45deg, transparent 50%, var(--c-primary) 50%),
+                    linear-gradient(135deg, var(--c-primary) 50%, transparent 50%);
+  background-position: calc(100% - 18px) 50%, calc(100% - 13px) 50%;
+  background-size: 5px 5px, 5px 5px; background-repeat: no-repeat;
+  padding-right: 36px;
+}
+
+/* Suggestions */
+.cutoff-suggest {
+  position: absolute; top: calc(100% + 4px); left: 0; right: 0;
+  background: #fff;
+  border: 1px solid var(--c-border);
+  border-radius: var(--c-radius);
+  max-height: 260px; overflow-y: auto;
+  z-index: 30;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+}
+.cutoff-suggest .item {
+  padding: 10px 14px;
+  font-size: 14px;
+  cursor: pointer;
+  border-bottom: 1px solid var(--c-border);
+}
+.cutoff-suggest .item:last-child { border-bottom: none; }
+.cutoff-suggest .item:hover,
+.cutoff-suggest .item.active { background: var(--c-primary-soft); color: var(--c-primary-dark); }
+.cutoff-suggest .item .small { display: block; font-size: 11px; color: var(--c-text-mute); margin-top: 2px; }
+.cutoff-suggest .empty { padding: 14px; text-align: center; color: var(--c-text-mute); font-size: 13px; }
+
+/* Status */
+.cutoff-status {
+  padding: 18px 14px;
+  background: var(--c-bg-soft);
+  border: 1px dashed var(--c-border);
+  border-radius: var(--c-radius);
+  text-align: center;
+  color: var(--c-text-soft);
+  font-size: 13px;
+  margin-top: 6px;
+}
+
+/* Table */
+.cutoff-table-wrap {
+  margin-top: 8px;
+  background: #fff;
+  border: 1px solid var(--c-border);
+  border-radius: var(--c-radius);
+  box-shadow: var(--c-shadow);
+  overflow: hidden;
+}
+.cutoff-college-name {
+  padding: 12px 14px;
+  background: var(--c-primary-soft);
+  color: var(--c-primary-dark);
+  font-weight: 600; font-size: 14px;
+  border-bottom: 1px solid var(--c-border);
+}
+.cutoff-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  font-size: 12.5px;
+}
+.cutoff-table th,
+.cutoff-table td {
+  padding: 9px 4px;
+  text-align: center;
+  border-bottom: 1px solid var(--c-border);
+  word-break: break-word;
+}
+.cutoff-table th {
+  background: #f3f7fc;
+  color: var(--c-primary-dark);
+  font-weight: 600;
+  font-size: 11.5px;
+  letter-spacing: .3px;
+}
+.cutoff-table th.b, .cutoff-table td.b {
+  text-align: left;
+  padding-left: 10px;
+  width: 34%;
+  font-weight: 500;
+}
+.cutoff-table tbody tr:nth-child(even) { background: #fafcfe; }
+.cutoff-table tbody tr:hover { background: var(--c-primary-soft); }
+.cutoff-table td.dash { color: var(--c-text-mute); }
+
+.cutoff-note {
+  padding: 10px 14px;
+  font-size: 11.5px;
+  color: var(--c-text-mute);
+  border-top: 1px solid var(--c-border);
+  background: var(--c-bg-soft);
+}
+/* Responsive */
+@media (max-width: 480px) {
+  .cutoff-wrap { padding: 12px 8px 32px; }
+  .cutoff-table { font-size: 11px; }
+  .cutoff-table th, .cutoff-table td { padding: 7px 2px; }
+  .cutoff-table th.b, .cutoff-table td.b { padding-left: 6px; width: 32%; }
+  .cutoff-college-name { font-size: 13px; padding: 10px 12px; }
+}
+@media (max-width: 360px) {
+  .cutoff-table { font-size: 10.5px; }
+}
+#clearBtn {
+  margin-top: 12px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #115ca8, #71c1ff);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+#clearBtn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+#clearBtn:active {
+  transform: scale(0.95);
+}
+
+@media (max-width: 480px) {
+
+  .cutoff-wrap{
+    padding: 12px 3px 32px;
+  }
+
+  .cutoff-table-wrap{
+    border-radius: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+}
+
+.cutoff-table th.b {
+  text-align: center;
+}
+
+.cutoff-info{
+  margin: 12px;
+  padding: 12px 14px;
+  border-radius: 10px;
+  background: #fff8e1;
+  border: 1px solid #ffe082;
+  color: #6d4c41;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.cutoff-info strong{
+  color: #5d4037;
+}
+
+.cutoff-info ul{
+  margin: 8px 0 0 18px;
+}
+
+.cutoff-info li{
+  margin: 4px 0;
+}

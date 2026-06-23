@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cut-Off Data – ACPC Portal</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="./cutoff_style.css" />
+</head>
+<body data-page="cutoff">
+
+  <header class="cutoff-bar">
+    <a class="back-btn" href="./index.html" aria-label="Back">←</a>
+    <h1 class="cutoff-title">Cut-Off Data</h1>
+    <span style="width:36px"></span>
+  </header>
+
+  <main class="cutoff-wrap">
+
+    <!-- College search -->
+    <div class="cutoff-field">
+      <label class="cutoff-label">College</label>
+      <div class="cutoff-search-wrap">
+        <input id="collegeSearch" type="text" autocomplete="off"
+               placeholder="Search college…" />
+        <button id="clearBtn">Clear</button>
+        <div id="collegeSuggest" class="cutoff-suggest" hidden></div>
+      </div>
+    </div>
+
+    <!-- Round / Data select -->
+    <div class="cutoff-field">
+      <label class="cutoff-label">Data</label>
+      <select id="cutoffRound" class="cutoff-select">
+        <option value="mock" selected>Cutoff Rank as per Mock Round, 2026</option>
+        <option value="r3">Cutoff Rank as per Round 3, 2025</option>
+      </select>
+    </div>
+    <div id="cutoffStatus" class="cutoff-status">Select a college to view cutoffs.</div>
+
+    <div id="cutoffTableWrap" class="cutoff-table-wrap" hidden>
+      <div class="cutoff-college-name" id="cutoffCollegeName"></div>
+      <table class="cutoff-table">
+        <thead>
+          <tr>
+            <th class="b">Branch</th>
+            <th>TFWS</th><th>OPEN</th><th>EWS</th><th>SEBC</th><th>SC</th><th>ST</th>
+          </tr>
+        </thead>
+        <tbody id="cutoffBody"></tbody>
+      </table>
+      <div class="cutoff-note" id="cutoffNote"></div>
+      <div id="cutoffInfo" class="cutoff-info" hidden></div>
+    </div>
+  </main>
+
+  <script src="./cutoff_script.js"></script>
+</body>
+</html>
