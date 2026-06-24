@@ -469,7 +469,7 @@
   {
     "id": 41,
     "name": "Dhirubhai Ambani University, Gandhinagar",
-    "short_name": "DAIICT",
+    "short_name": "DAIICT, Gadhinagar",
     "type": "SFI",
     "district": "Gandhinagar",
     "fees": "3,85,000",
@@ -672,7 +672,7 @@
   },
   {
     "id": 58,
-    "name": "Indus Institute Of Technology & Engineering, Racharda,",
+    "name": "Indus Institute Of Technology & Engineering, Racharda, Ahmedabad",
     "short_name": "Indus University",
     "type": "SFI",
     "district": "Gandhinagar",
@@ -697,14 +697,14 @@
   {
     "id": 60,
     "name": "Institute Of Technology, Nirma University",
-    "short_name": "Nirma University",
+    "short_name": "Nirma University, Ahmedabad",
     "type": "SFI",
     "district": "Ahmedabad",
     "fees": "2,75,000",
     "phone": "07971652503",
     "email": "ugadmissions.it@nirmauni.ac.in",
     "website": "https://technology.nirmauni.ac.in/",
-    "location": "Sarkhej - Gandhinagar Highway, Post - Chandlodiya, Via - Gota, Ahmedabad"
+    "location": "Nirma University, Sarkhej - Gandhinagar Highway, Gota, Ahmedabad, Gujarat"
   },
   {
     "id": 61,
@@ -1429,7 +1429,7 @@
   {
     "id": 120,
     "name": "B.H.Gardi College Of Engineering & Technology , Rajkot",
-    "short_name": "B.H.Gardi College Of Enginee",
+    "short_name": "B.H.Gardi College, Rajkot",
     "type": "SFI",
     "district": "Jamnagar",
     "fees": "55,125",
