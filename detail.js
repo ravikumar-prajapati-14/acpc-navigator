@@ -34,7 +34,7 @@ async function load() {
     const [colleges, intake, cutoff, placement] = await Promise.all([
       fetch('./colleges.json').then(r => r.json()),
       fetch('./intake.json').then(r => r.json()).catch(() => []),
-      fetch('./cutoff.json').then(r => r.json()).catch(() => []),
+      fetch('./cutoffR126.json').then(r => r.json()).catch(() => []),
       fetch('./placement.json').then(r => r.json()).catch(() => []),
     ]);
     data.college = colleges.find(c => c.id === COLLEGE_ID);
@@ -250,7 +250,7 @@ function renderCutoff() {
       </table>
 
       <div class="table-note">
-        Cutoff Rank as per Mock Round, 2026
+        Cutoff Rank as per Round 1, 2026
       </div>
 
       ${

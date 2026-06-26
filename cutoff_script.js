@@ -18,12 +18,14 @@ const els = {
 const state = {
   colleges: [],
   mock: [],
+  r1: [],
   r3: [],
   selectedId: null,
   activeIdx: -1,
 };
 
 const NOTE = {
+   r1: 'Cutoff Rank as per Round 1, 2026',
   mock: 'Cutoff Rank as per Mock Round, 2026',
   r3: 'Cutoff Rank as per Round 3, 2025',
 };
@@ -55,14 +57,16 @@ async function fetchJson(path) {
 }
 
 async function init() {
-  const [colleges, mock, r3] = await Promise.all([
+  const [colleges, mock, r1, r3] = await Promise.all([
     fetchJson('./colleges.json'),
     fetchJson('./cutoff.json'),
+    fetchJson('./cutoffR126.json'),
     fetchJson('./cutoffR3.json'),
   ]);
 
   state.colleges = colleges.map(c => ({ ...c, name: cleanName(c.name) }));
   state.mock = mock.filter(x => x.college_id);
+  state.r1 = r1.filter(x => x.college_id);
   state.r3 = r3.filter(x => x.college_id);
 
   bindEvents();
@@ -135,9 +139,28 @@ function selectCollege(id) {
 /* ===== TABLE ===== */
 function renderTable() {
   const id = state.selectedId;
-  const round = els.round.value || 'mock';
+  const round = els.round.value || 'r1';
 
-  const source = round === 'r3' ? state.r3 : state.mock;
+let source;
+
+switch (round) {
+
+  case 'r1':
+    source = state.r1;
+    break;
+
+  case 'mock':
+    source = state.mock;
+    break;
+
+  case 'r3':
+    source = state.r3;
+    break;
+
+  default:
+    source = state.r1;
+
+}
   const rows = source.filter(r => r.college_id === id);
   const college = state.colleges.find(c => c.id === id);
 
