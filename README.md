@@ -6,7 +6,7 @@
 
 A modern, mobile-first web platform that helps students explore colleges, analyze cutoffs, track admission dates, and predict their best-fit engineering colleges based on their ACPC rank.
 
-[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Coming_Soon-2563eb?style=for-the-badge)](#)
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Live-success?style=for-the-badge)](https://acpc-navigator.vercel.app)
 ![Mobile Friendly](https://img.shields.io/badge/Mobile-Optimized-success?style=for-the-badge)
 ![Built With](https://img.shields.io/badge/Built%20With-HTML%20%7C%20CSS%20%7C%20JavaScript-orange?style=for-the-badge)
 
